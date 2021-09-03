@@ -18,3 +18,5 @@ for submission in ask_historians.comments(limit=25):
     for mod in mod_list:
         if submission.author == mod:
             print(submission.author)
+
+print('hi')
